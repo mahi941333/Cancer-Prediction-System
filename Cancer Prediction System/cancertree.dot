@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="worst radius <= 16.795\nsamples = 426\nvalue = [159, 267]\nclass = benign", fillcolor="#399de567"] ;
+1 [label="samples = 284\nvalue = [25, 259]\nclass = benign", fillcolor="#399de5e6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 142\nvalue = [134, 8]\nclass = malignant", fillcolor="#e58139f0"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
